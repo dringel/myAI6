@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Lock files (optional — keep if team standard says so)
+# package-lock.json
+# yarn.lock
+
+# Knowledge base source documents (personal/copyrighted — never commit)
+RAGloader/content/**
+!RAGloader/content/README.md
+
+# Misc
+coverage/
+dist/
+__pycache__/
